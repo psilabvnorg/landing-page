@@ -1,0 +1,300 @@
+HOANG TUAN DUY | Data Engineer | Infrastructure Engineer | Business Intelligence
+A: Hanoi, Vietnam | M: (+84) 96 479 4208 | E: data.duyht@gmail.com | LinkedIn: duyht | Github: duyht | HackerRank: duyht
+PROFESSIONAL EXPERIENCE
+PSI Technology May 2025 - Present
+Problem statement Approach Repsonsibility Tech stack (*) Status
+Vietnamese insurance
+chatbot capable of accurate
+document-based Q&A
+• Support real-time voice
+interaction with streaming
+STT/TTS
+• Manage complex AI
+dependencies and GPU
+acceleration
+• Designed a Retrieval-Augmented Generation (RAG) architecture
+using vector search
+• Implemented document ingestion pipeline including cleanup,
+chunking, tokenization, and normalization
+• Integrated streaming Speech-to-Text (STT) and Text-to-Speech
+(TTS) for real-time interaction
+• Managed CUDA and PyTorch dependencies to ensure GPU
+compatibility and performance
+Design
+Develop
+Documentation
+Python
+PyTorch
+CUDA
+Vector Database (FAISS /
+Chroma)
+LLM Frameworks
+STT/TTS streaming
+Engines
+Proof of
+Concept
+• Operate and secure a
+multi-OS homelab
+environment supporting
+multiple concurrent users
+• Provide reliable, remote
+access with strong network
+isolation and security
+• Allocate hardware
+resources across multiple
+VM
+• Designed and operated Proxmox-based virtualization and
+container platform
+• Build custom hardware for ~30 concurrent users
+• Deployed and managed Linux and Windows servers across VMs
+and containers
+• Implemented WireGuard-based VPN with role-based access and
+key rotation
+• Tuned network and resource allocation to reliably support ~100
+concurrent users
+Design
+Develop
+Documentation
+Proxmox VE
+Linux (Ubuntu)
+Windows Server
+Containers (LXC / Docker)
+WireGuard VPN
+Firewall & Networking
+Deployed in
+Production
+Rackspace Singapore June 2023 - Present
+Data Engineer
+Problem statement Approach Repsonsibility Tech stack (*) Status
+Power BI MCP
+• ~95% reduction in DAX
+management time
+• ~80% reduction in DAX
+defects caused by manual
+edits
+• Enabled full model
+regeneration in < 1 hours,
+supporting rapid iteration
+and CI/CD scenarios
+• Enforced 100% consistency
+in naming conventions,
+formatting, and calculation
+patterns
+• Designed a spec-driven development framework using Kiro to
+declaratively define tables, relationships, and DAX measures
+• Implemented automated generation of Power BI semantic models
+from structured specifications (Markdown)
+• Built DAX templates and dependency-aware measure
+orchestration to ensure consistent naming, formatting, and
+calculation logic
+• Integrated validation rules to detect circular dependencies,
+broken relationships, and anti-pattern DAX
+Design
+Develop
+Documentation
+Power BI | DAX
+Kiro| Spec-Driven
+Development
+Tabular Editor
+Power BI MCP
+Markdown
+Proof of
+Concept
+Migrate ~300 reports from
+Tableau to Power BI
+Premium
+• Minimize effort
+• 1:1 from Tableau to Power
+BI (include Data Modeling,
+Reports and Data
+Governance)
+Develop optimize workflow to:
+• Automatically transform Tableau Formula into DAX, optimize DAX
+performance
+• Restrict Data Access by intergrating RLS & User Filters
+• Mimic complex visuals
+• Data modeling, schedule refresh
+Design
+Develop
+CICD
+Documentation
+Power BI|DAX|M Query
+Tabular Editor|DAX Studio
+Tableau|Formula
+SAP HANA
+SQL Server
+Deployed in
+Production
+End-to-end Analytics
+Platform
+• Apply for any industry
+• Minimize set-up effort
+Develop Microsoft Fabric infrastructure with PowerShell script for
+setting up:
+• Lakehouse & Warehouse: Ingest various data sources, medallion
+architecture, notebooks, pipelines,..
+• Realtime Data from IoT Sensors using KQL Database and QuerySet
+• MLOps with Fabric Notebooks and Databricks
+• Power BI Reports with Direct Lake
+Design
+Develop
+Documentation
+PowerShell
+Python|SQL Server|
+PySpark
+SQL Server
+Databricks
+Fabric|Power BI
+Proof of
+Concept
+CSP to EA Migration
+• Migrate Azure
+subscriptions from CSP to EA
+• Transition ~40 Resource
+Groups and ~500 Azure
+resources
+• Minimize downtime and
+manual effort while
+preserving dependencies
+• Designed automated migration framework using PowerShell and
+ARM templates
+• Built reusable deployment templates for core Azure services
+• Implemented dependency-aware execution logic to handle interresource relationships
+• Optimized automation to reduce migration time by ~90%
+compared to manual execution
+Design
+Develop
+Documentation
+PowerShell
+ARM Templates
+Logic Apps
+Azure Functions
+Azure Data Factory
+Storage Accounts
+Databricks
+API Management
+Key Vault
+Azure SQL Server
+Service Bus
+Event Grid
+Deployed to
+ProductionMigrate on-premises SQL
+Server workloads to Azure
+Synapse Analytics
+• Modernize legacy ETL and
+improve data observability,
+quality, and governance
+• Designed and implemented Azure Synapse pipelines for cloudnative data processing
+• Translated SSMS/SSIS logic into optimized T-SQL for Synapse
+execution
+• Built DataOps, data quality, governance, and reconciliation
+dashboards
+• Implemented Logic Apps for automated pipeline success/failure
+notifications
+Design
+Develop
+Documentation
+Azure Synapse Analytics
+SQL Server (On-Prem,
+SSMS)
+SSIS
+T-SQL
+Azure Logic Apps
+Azure Log Analytics
+Power BI
+Deployed to
+Production
+Migrate SAP BW reports to
+Power BI workspace
+• Preserve complex business
+logic and reporting accuracy
+across ~100 reports
+• Converted SAP BW data models and formula logic into Power BI
+semantic models and optimized DAX
+• Standardized paginated report templates to accelerate
+development
+• Implemented reusable datasets and parameters to reduce
+duplication, ~70% reduction in report development time
+Design
+Develop
+Documentation
+Power BI Paginated
+Reports
+Power BI Semantic Model
+DAX
+SAP BW
+Deployed to
+Production
+Raffles Data & Analytics, Ha Noi, Viet Nam November 2022 – April 2023
+Data Engineer Trainee – Client: VNDirect
+Problem statement Approach Repsonsibility Tech stack (*) Status
+End-to-end OLAP Business
+Intelligence Customer360
+dashboards with PowerBI
+• Developing Customer 360 data model with Semantic Model
+• Generate Power BI theme for unified visuals, reduce time for
+visualization by 90%
+• Configuring access for each end-user (RLS, apps)
+Design
+Develop
+Power BI|DAX|M Query
+Tabular Editor|DAX Studio
+SQL Server
+Oracle
+Deployed in
+Production
+Adhoc reports from various
+industries for pre-sale
+purpose(Bank, Securities,
+Insurance, Manufacture
+Firms) in Power BI Premium
+• ~30 reports for each
+industry
+• Develop Data model for various industries with general
+understanding
+• Static and near-realtime reports with fast data loading
+• Web crawling: data for Bank, Securities, Insurance, Manufacture
+Firms from various websites
+• Generate mock-up data for reports
+Design
+Develop
+Power BI|DAX|M Query
+Tabular Editor|
+DAX Studio
+Oracle
+Python|BeautifulSoup|
+Selenium
+Deployed in
+Production
+Big data processing
+architecture with Onpremises software
+• Fully Open-source Sofware
+• ETL jobs with PySpark & Hadoop to batch process data from Data
+Lake (Oracle)
+• Develop data pipelines to Data warehouse (Minio as Object Storage
+and PostgresSQL for metadata storage) using Iceberg format table
+and with Dremio for querying tool, and scheduling task daily using
+Airflow
+• High Availability and Fault Tolerance Architecture
+Develop
+CICD
+Documentation
+Python (Pyspark, OOP,
+DAGs)
+Hadoop|Minio|
+PostgreSQL
+Airflow|RabbitMQ|Celery|
+Dremio
+Linux|Bash|VMWare
+Proof of
+Concept
+EDUCATION
+Foreign Trade University, Hanoi, Vietnam – Bachelor, Business Administration
+QUALIFICATIONS & CERTIFICATIONS
+- Self-learn coding (Build crypto trading-bot using ccxt, Generating mock-up data for Visualizing reports, Scraping E-commerce product data,…)
+- Certificates: Python, SQL (DataCamp, HackerRank, DP-080), Azure Fundamentals (AZ-900), Power BI Data Analyst Associate (PL-300), Data Engineer Associate (DP-203), Data
+Science in Economics and Business (Issued by Datapot):
+• Database management system (Database Concept, Data Warehouse & Modeling, Advanced SQL)
+• Programming for data analysis and scientific computing (Data wrangling, EDA, Model development in Python)
+• Advanced Analytics in Economics and Business (ETL, Visualization in Power BI)
+(*) Tech stack: hands-on coding & technical skills that I’ve used to build enterprise applications for production environment

@@ -1,0 +1,92 @@
+Personal details
+Name: Phan Manh Cuong
+Email: phancuong1203@gmail.com
+Phone: (+84) 086 596 0995
+Location: 56A, 236 Lane, Khuong Dinh Street, Ha Noi, Vietnam
+Employment (Fullstack Engineer)
+Psi Technology (05/2025 ~ present 7 months)
+Leverage AI to design, develop, test, and set up infrastructure for two web applications: one
+showcasing a self-produced electric motorbike product and another providing a stock investment
+consulting platform
+Use a modern stack—React, TypeScript, and Vite—for rapid development and deployment
+Use Docker to containerize services and manage inter-service communication
+Set up and host these services on a local workstation; use Cloudflare CDN to improve
+performance and security
+Store and cache media content in Cloudflare R2 Object Storage to improve user experience
+Use WordPress CMS dashboard and API to improve SEO performance for these web applications
+Build data pipelines for preprocessing and fine-tuning TTS models; implement scripts for text-to
+speech and lip-sync video generation from input text and a sample voice
+Create scripts to download videos from YouTube links
+Separate animation frames and voice tracks from videos
+Perform audio noise reduction and silence removal to produce a clean sample voice
+Preprocess input text and combine it with animation and the sample voice to generate lip-sync
+videos
+Apply the GFPGAN model to enhance output video quality
+Develop a web application that embeds these pipelines behind a user-friendly interface, allowing
+users to generate audio from desired text using a target voice
+Use FastAPI to expose and orchestrate these pipelines
+Reduce model loading time with a preload strategy
+Hakuhodo DY ONE, DAC Data Technology VietNam (09/2018 ~ present 7+ years)
+Develop and maintain a B2B digital marketing web application on the AWS platform using Scala (FP &
+OOP) with the Play Framework (MVC) for back-end REST APIs
+View layer: present data and capture user input
+Controller layer: validate input, execute business logic, and communicate with the model layer
+Model layer (Slick): map database tables to objects and perform data access operations
+Implement asynchronous web application request handling and concurrent processing using Akka
+Actors for improved application performance and scalability
+Implement batch processing solutions using Scala classes and Bash shell scripts for data processing
+and automation tasks
+Build and maintain modern CI/CD pipelines using Jenkins, and GitHub Actions workflows for
+automated testing, deployment, and continuous integration
+Architect and manage cloud infrastructure on AWS (RDS, Redshift, Lambda, EC2), leveraging
+Infrastructure as Code with Terraform
+Enhance application and infrastructure security following AWS best practices and compliance
+standards
+Manage and design PostgreSQL databases on AWS RDS PostgreSQL for data storage
+Monitor and troubleshoot development, production systems using ELK stack (Elasticsearch,
+Logstash, Kibana), AWS CloudWatch, and New Relic for real-time observability and performance
+monitoring
+Design and implement containerized solutions using Docker (dockerized tools: Redmine, Jenkins,
+AWS Lambda Function)
+Leverage GitHub Copilot AI to accelerate development workflow, improving code productivity by 30%
+through AI-assisted code generation and Infrastructure as Code (Terraform) development
+Lead code reviews, mentor junior developers, and collaborate with cross-functional teams including
+business and infrastructure teams
+Specify requirements, create and assign tasks, and coordinate between VN and Japan teams for
+feature development and incident resolution
+Technical Skills
+Programming Languages:
+Scala (functional programming & OOP), JavaScript (jQuery), bash shell scripting, Python
+Scala Ecosystem:
+Play Framework (MVC), Akka Actors (asynchronous processing), functional programming, REST API
+development
+AI/ML:
+Model preprocessing and fine-tuning; data pipelines for TTS and lip-sync audio generation
+Text-to-speech (TTS) and voice cloning; lip-sync alignment from input text and sample voice
+Embedding ML pipelines behind user-friendly web interfaces
+Containerization & Orchestration:
+Docker, container management
+CI/CD Tools:
+Jenkins, GitHub Actions, automated testing and deployment pipelines
+Cloud Platforms:
+AWS Cloud Platforms
+Databases:
+PostgreSQL, AWS RDS
+Monitoring & Logging:
+Elasticsearch, Logstash, Kibana (ELK Stack), AWS CloudWatch, New Relic
+Version Control:
+Git, GitLab, GitHub
+Education
+Hanoi University of Science and Technology
+Very Good Bachelorʼs degree in Information Technology (GPA: 3.4/4.0)
+Scholarships awarded in 7 of 10 semesters
+Languages
+English – Professional working proficiency (TOEIC 885/990)
+Vietnamese – Native proficiency
+Japanese – Professional working proficiency (JLPT N1)
+Professional Certifications (Cloud & DevOps)
+AWS Certified DevOps Engineer – Professional (04/2022 ~ 04/2025)
+AWS Certified Solutions Architect – Associate (02/2022 ~ 02/2025)
+AWS Certified Developer – Associate (12/2021 ~ 04/2025)
+GCP Professional Cloud Architect (07/2023 ~ 07/2025)
+GCP Cloud Engineer (06/2023 ~ 06/2025)

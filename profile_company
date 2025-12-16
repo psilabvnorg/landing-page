@@ -1,0 +1,31 @@
+Team intro
+Small company (legal entity founded for 1 years)
+Cuong - Back end & Front end enginner, AI enginner, Cloud Architect AWS
+Duy - Server Admin, BI Engineer, Data Engineer, AI engineer
+Tung- Solution Architect x PM x Engineer
+
+
+Portfolio project:
+
+Deep analyze open source project integrate with Poiwer BI MCP and Databricks MCP
+Input: messy bunch of xlsx, sqlite, markdown, pdf, powerpoint, prompt
+Current Output: pdf report with text and chart
+Future output: dlt pipeline, DBT repo, PBI model, docs
+Technology: vLLM, NodeJS, MCP, Agents
+
+AWM FUND reporting tool
+Input: user prompt query about stock market, investment advice
+Output: chart from real time data
+Technology: python crawler, LLM, matplot, NextJS
+
+MKT agency Automation tool
+Input: original youtube
+Output: new video with Celebrity lip sync
+Technology: F5-TTS, Latent Sync ByteDance, OpenAI Whisper, FastAPI
+
+Insurance voice & text chatbot
+RAG from Insurance contract
+Support text & voice chatbot
+Technology: Qwen, Deepseek, VectorDB, vLLM
+
+

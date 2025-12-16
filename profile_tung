@@ -1,0 +1,121 @@
+Tung Nguyen​
+Lead Data Engineer/Architect​/PM
+
+Portfolio project:
+
+Deep analyze open source project integrate with Poiwer BI MCP and Databricks MCP
+Input: messy bunch of xlsx, sqlite, markdown, pdf, powerpoint, prompt
+Current Output: pdf report with text and chart
+Future output: dlt pipeline, DBT repo, PBI model, docs
+Technology: vLLM, NodeJS, MCP, Agents
+
+AWM FUND reporting tool
+Input: user prompt query about stock market, investment advice
+Output: chart from real time data
+Technology: python crawler, LLM, matplot, NextJS
+
+MKT agency Automation tool
+Input: original youtube
+Output: new video with Celebrity lip sync
+Technology: F5-TTS, Latent Sync ByteDance, OpenAI Whisper, FastAPI
+
+Insurance voice & text chatbot
+RAG from Insurance contract
+Support text & voice chatbot
+Technology: Qwen, Deepseek, VectorDB, vLLM
+
+
+
+TLDR | Key highlights: ​
+
+​
+
+Can be very down to earth to write code, draw design diagram, write docs,
+collect & structure requirements, working side by side with engineers to get
+things done​
+
+But can also be 10,000 feet high working with senior stakeholders/executive
+to provide strategy, tactics, define project plan, inspiring but also realistic​
+
+Experience with Databricks: Delta Live Table, Materialized View, Change Data
+Capture (both Batch & Streaming), understand pros & cons, design & deliver
+real-world large-scale system that running on PROD to deliver critical metrics​
+
+Experience with Prudential MLOps: Design & Deliver MLOps for Prudential,
+following best practice from Databricks MLOps Big Books, approved by
+Prudential CDO​
+
+​Person Specification & Qualifications:​
+
+SQL, Python​
+
+Databricks, Synapse, ADF​
+
+Azure Infra, VNET, Private Endpoint​
+
+Azure DevOps CICD ​
+
+Power BI​
+
+Azure Data Engineer Associate Certificate​
+
+​Key Projects and Experience: ​
+
+​
+
+Top Tier Insurance Company – Prudential – Solution Architect​
+
+Define Regional MLOps design​
+
+Research features, compare pros and cons design option between Azure ML Studio vs Databricks,
+across multiple criteria: feature engineer, model training, model monitoring, responsible AI, DevOps
+CICD, integration with Data Platform, learning curve​
+
+Propose detail MLOps design with Databricks, follow best practice from Databricks MLOps Big
+Book​
+
+Present and align the design with regional team, local team​
+
+Implement the proposed design for 2 models in 2 countries​
+
+Setup required Infrastructure, DevOps​
+
+Refactor code to make it more modularization​
+
+Leverage Databricks Asset Bundle for Databricks Workflow CICD​
+
+Implement Lakehouse monitoring, Unity Catalog Linage​
+
+Present result and get approval from CDO​
+
+Top Tier Coffee Chain – Solution Architect​
+
+Design​
+
+Perform gap analysis of current design versus best practice design​
+
+Define data flow design: ADF copy, Delta Live Table (DLT) , Bronze Silver Gold​
+
+Define Unity Catalog design for 6 countries, 4 data domains​
+
+Define source to target mapping (STTM) for critical Sales performance report​
+
+Implementation​
+
+Build ADF data pipeline, DBR workflow, DLT, resolve limitation of the tools to make the design work
+and follow DBR best practice​
+
+Conduct workshop to collect business requirements, build Gold layer (use case), define test cases
+and validate that in UAT, get sign off, handover and close projects​
+
+​
+
+Top Tier Furniture Retailer – Data Modelling Architect​
+
+Multiple Generative LLM AI Project – Solution Architect and Delivery Manager​
+
+​
+​
+​
+​
+​
