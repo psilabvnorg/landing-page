@@ -1,0 +1,18 @@
+{
+  "name": "psi-landing-page",
+  "version": "1.0.0",
+  "description": "PSI Technology Landing Page with Tailwind CSS and Flowbite",
+  "scripts": {
+    "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
+  },
+  "keywords": ["tailwind", "flowbite", "landing-page"],
+  "author": "PSI Technology",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "flowbite": "^2.2.1"
+  }
+}

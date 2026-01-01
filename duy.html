@@ -4,132 +4,167 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hoang Tuan Duy - PSI Technology</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="dist/output.css">
 </head>
-<body>
+<body class="bg-gray-50">
     <header>
-        <nav>
-            <div class="logo">
-                <img src="company_logo.png" alt="PSI Technology" height="40">
-                <h1>PSI Technology</h1>
+        <nav class="bg-psi-dark border-gray-200 sticky top-0 z-50 shadow-md">
+            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+                <a href="index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+                    <img src="company_logo.png" class="h-10" alt="PSI Technology">
+                    <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">PSI Technology</span>
+                </a>
+                <button data-collapse-toggle="navbar-profile" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-200 rounded-lg md:hidden hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-600" aria-controls="navbar-profile" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                    </svg>
+                </button>
+                <div class="hidden w-full md:block md:w-auto" id="navbar-profile">
+                    <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-700 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
+                        <li><a href="index.html" class="block py-2 px-3 text-white rounded hover:text-psi-blue md:hover:bg-transparent md:border-0 md:p-0 transition-colors">Home</a></li>
+                        <li><a href="cuong.html" class="block py-2 px-3 text-white rounded hover:text-psi-blue md:hover:bg-transparent md:border-0 md:p-0 transition-colors">Cuong</a></li>
+                        <li><a href="tung.html" class="block py-2 px-3 text-white rounded hover:text-psi-blue md:hover:bg-transparent md:border-0 md:p-0 transition-colors">Tung</a></li>
+                        <li><a href="https://github.com/psilabvnorg" target="_blank" class="block py-2 px-3 text-white rounded hover:text-psi-blue md:hover:bg-transparent md:border-0 md:p-0 transition-colors">GitHub</a></li>
+                    </ul>
+                </div>
             </div>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="cuong.html">Cuong</a></li>
-                <li><a href="tung.html">Tung</a></li>
-                <li><a href="https://github.com/psilabvnorg" target="_blank">GitHub</a></li>
-            </ul>
         </nav>
     </header>
 
-    <main>
-        <a href="index.html" class="back-link">← Back to Home</a>
+    <main class="max-w-screen-xl mx-auto px-4 py-8">
+        <a href="index.html" class="inline-flex items-center text-psi-blue hover:text-blue-700 font-medium mb-8">
+            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/>
+            </svg>
+            Back to Home
+        </a>
         
-        <div class="profile-header">
-            <h1>Hoang Tuan Duy</h1>
-            <p>Data Engineer | Infrastructure Engineer | Business Intelligence</p>
+        <div class="gradient-hero text-white rounded-lg shadow-lg py-16 px-8 mb-12 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">Hoang Tuan Duy</h1>
+            <p class="text-xl md:text-2xl opacity-90">Data Engineer | Infrastructure Engineer | Business Intelligence</p>
         </div>
 
-        <div class="profile-section">
-            <h3>Contact Information</h3>
-            <p><strong>Email:</strong> data.duyht@gmail.com</p>
-            <p><strong>Phone:</strong> (+84) 96 479 4208</p>
-            <p><strong>Location:</strong> Hanoi, Vietnam</p>
-            <p><strong>LinkedIn:</strong> duyht | <strong>Github:</strong> duyht | <strong>HackerRank:</strong> duyht</p>
-        </div>
-
-        <div class="profile-section">
-            <h3>Current Role - PSI Technology (May 2025 - Present)</h3>
-            
-            <h4>Vietnamese Insurance Chatbot</h4>
-            <ul>
-                <li>Designed RAG architecture using vector search</li>
-                <li>Implemented document ingestion pipeline with cleanup, chunking, and tokenization</li>
-                <li>Integrated streaming STT/TTS for real-time voice interaction</li>
-                <li>Managed CUDA and PyTorch dependencies for GPU optimization</li>
-            </ul>
-
-            <h4>Multi-OS Homelab Infrastructure</h4>
-            <ul>
-                <li>Designed Proxmox-based virtualization platform for ~30 concurrent users</li>
-                <li>Deployed Linux and Windows servers across VMs and containers</li>
-                <li>Implemented WireGuard VPN with role-based access</li>
-                <li>Optimized for ~100 concurrent users in production</li>
-            </ul>
-        </div>
-
-        <div class="profile-section">
-            <h3>Rackspace Singapore (June 2023 - Present)</h3>
-            
-            <h4>Power BI MCP Development</h4>
-            <ul>
-                <li>95% reduction in DAX management time</li>
-                <li>80% reduction in DAX defects</li>
-                <li>Spec-driven development framework using Kiro</li>
-                <li>Automated Power BI semantic model generation</li>
-            </ul>
-
-            <h4>Tableau to Power BI Migration</h4>
-            <ul>
-                <li>Migrated ~300 reports from Tableau to Power BI Premium</li>
-                <li>Automated Tableau Formula to DAX transformation</li>
-                <li>Implemented RLS and user filters for data governance</li>
-            </ul>
-
-            <h4>Azure Infrastructure Projects</h4>
-            <ul>
-                <li>CSP to EA migration for ~40 Resource Groups and ~500 Azure resources</li>
-                <li>SQL Server to Azure Synapse Analytics migration</li>
-                <li>SAP BW to Power BI workspace migration (~100 reports)</li>
-            </ul>
-        </div>
-
-        <div class="profile-section">
-            <h3>Technical Skills</h3>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h4>Programming</h4>
-                    <p>Python, SQL, PowerShell, PySpark, T-SQL</p>
+        <div class="space-y-8">
+            <div class="bg-white rounded-lg shadow-md p-8">
+                <h3 class="text-2xl font-bold text-psi-dark mb-4 pb-2 border-b-2 border-psi-blue">Contact Information</h3>
+                <div class="space-y-2 text-gray-700">
+                    <p><strong class="text-psi-dark">Email:</strong> data.duyht@gmail.com</p>
+                    <p><strong class="text-psi-dark">Phone:</strong> (+84) 96 479 4208</p>
+                    <p><strong class="text-psi-dark">Location:</strong> Hanoi, Vietnam</p>
+                    <p><strong class="text-psi-dark">LinkedIn:</strong> duyht | <strong class="text-psi-dark">Github:</strong> duyht | <strong class="text-psi-dark">HackerRank:</strong> duyht</p>
                 </div>
-                <div class="skill-category">
-                    <h4>Cloud Platforms</h4>
-                    <p>Azure Synapse, Databricks, Microsoft Fabric</p>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md p-8">
+                <h3 class="text-2xl font-bold text-psi-dark mb-4 pb-2 border-b-2 border-psi-blue">Current Role - PSI Technology (May 2025 - Present)</h3>
+                
+                <div class="mb-6">
+                    <h4 class="text-xl font-semibold text-gray-800 mb-3">Vietnamese Insurance Chatbot</h4>
+                    <ul class="list-disc list-inside space-y-2 text-gray-700">
+                        <li>Designed RAG architecture using vector search</li>
+                        <li>Implemented document ingestion pipeline with cleanup, chunking, and tokenization</li>
+                        <li>Integrated streaming STT/TTS for real-time voice interaction</li>
+                        <li>Managed CUDA and PyTorch dependencies for GPU optimization</li>
+                    </ul>
                 </div>
-                <div class="skill-category">
-                    <h4>Business Intelligence</h4>
-                    <p>Power BI, DAX, Tabular Editor, SAP BW</p>
+
+                <div>
+                    <h4 class="text-xl font-semibold text-gray-800 mb-3">Multi-OS Homelab Infrastructure</h4>
+                    <ul class="list-disc list-inside space-y-2 text-gray-700">
+                        <li>Designed Proxmox-based virtualization platform for ~30 concurrent users</li>
+                        <li>Deployed Linux and Windows servers across VMs and containers</li>
+                        <li>Implemented WireGuard VPN with role-based access</li>
+                        <li>Optimized for ~100 concurrent users in production</li>
+                    </ul>
                 </div>
-                <div class="skill-category">
-                    <h4>Infrastructure</h4>
-                    <p>Proxmox VE, Docker, Linux, Windows Server</p>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md p-8">
+                <h3 class="text-2xl font-bold text-psi-dark mb-4 pb-2 border-b-2 border-psi-blue">Rackspace Singapore (June 2023 - Present)</h3>
+                
+                <div class="mb-6">
+                    <h4 class="text-xl font-semibold text-gray-800 mb-3">Power BI MCP Development</h4>
+                    <ul class="list-disc list-inside space-y-2 text-gray-700">
+                        <li>95% reduction in DAX management time</li>
+                        <li>80% reduction in DAX defects</li>
+                        <li>Spec-driven development framework using Kiro</li>
+                        <li>Automated Power BI semantic model generation</li>
+                    </ul>
                 </div>
-                <div class="skill-category">
-                    <h4>AI/ML</h4>
-                    <p>PyTorch, CUDA, Vector Databases, RAG</p>
+
+                <div class="mb-6">
+                    <h4 class="text-xl font-semibold text-gray-800 mb-3">Tableau to Power BI Migration</h4>
+                    <ul class="list-disc list-inside space-y-2 text-gray-700">
+                        <li>Migrated ~300 reports from Tableau to Power BI Premium</li>
+                        <li>Automated Tableau Formula to DAX transformation</li>
+                        <li>Implemented RLS and user filters for data governance</li>
+                    </ul>
                 </div>
-                <div class="skill-category">
-                    <h4>Data Engineering</h4>
-                    <p>Hadoop, Airflow, Minio, PostgreSQL</p>
+
+                <div>
+                    <h4 class="text-xl font-semibold text-gray-800 mb-3">Azure Infrastructure Projects</h4>
+                    <ul class="list-disc list-inside space-y-2 text-gray-700">
+                        <li>CSP to EA migration for ~40 Resource Groups and ~500 Azure resources</li>
+                        <li>SQL Server to Azure Synapse Analytics migration</li>
+                        <li>SAP BW to Power BI workspace migration (~100 reports)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md p-8">
+                <h3 class="text-2xl font-bold text-psi-dark mb-4 pb-2 border-b-2 border-psi-blue">Technical Skills</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="bg-gray-50 p-4 rounded-lg border-l-4 border-psi-blue">
+                        <h4 class="font-semibold text-psi-dark mb-2">Programming</h4>
+                        <p class="text-gray-700">Python, SQL, PowerShell, PySpark, T-SQL</p>
+                    </div>
+                    <div class="bg-gray-50 p-4 rounded-lg border-l-4 border-psi-blue">
+                        <h4 class="font-semibold text-psi-dark mb-2">Cloud Platforms</h4>
+                        <p class="text-gray-700">Azure Synapse, Databricks, Microsoft Fabric</p>
+                    </div>
+                    <div class="bg-gray-50 p-4 rounded-lg border-l-4 border-psi-blue">
+                        <h4 class="font-semibold text-psi-dark mb-2">Business Intelligence</h4>
+                        <p class="text-gray-700">Power BI, DAX, Tabular Editor, SAP BW</p>
+                    </div>
+                    <div class="bg-gray-50 p-4 rounded-lg border-l-4 border-psi-blue">
+                        <h4 class="font-semibold text-psi-dark mb-2">Infrastructure</h4>
+                        <p class="text-gray-700">Proxmox VE, Docker, Linux, Windows Server</p>
+                    </div>
+                    <div class="bg-gray-50 p-4 rounded-lg border-l-4 border-psi-blue">
+                        <h4 class="font-semibold text-psi-dark mb-2">AI/ML</h4>
+                        <p class="text-gray-700">PyTorch, CUDA, Vector Databases, RAG</p>
+                    </div>
+                    <div class="bg-gray-50 p-4 rounded-lg border-l-4 border-psi-blue">
+                        <h4 class="font-semibold text-psi-dark mb-2">Data Engineering</h4>
+                        <p class="text-gray-700">Hadoop, Airflow, Minio, PostgreSQL</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md p-8">
+                <h3 class="text-2xl font-bold text-psi-dark mb-4 pb-2 border-b-2 border-psi-blue">Education & Certifications</h3>
+                <div class="space-y-4 text-gray-700">
+                    <p><strong class="text-psi-dark">Education:</strong> Foreign Trade University, Hanoi - Bachelor in Business Administration</p>
+                    <div>
+                        <p class="font-semibold text-psi-dark mb-2">Certifications:</p>
+                        <ul class="list-disc list-inside space-y-1 ml-4">
+                            <li>Azure Fundamentals (AZ-900)</li>
+                            <li>Power BI Data Analyst Associate (PL-300)</li>
+                            <li>Data Engineer Associate (DP-203)</li>
+                            <li>Data Science in Economics and Business (Datapot)</li>
+                            <li>Python, SQL (DataCamp, HackerRank)</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-
-        <div class="profile-section">
-            <h3>Education & Certifications</h3>
-            <p><strong>Education:</strong> Foreign Trade University, Hanoi - Bachelor in Business Administration</p>
-            <p><strong>Certifications:</strong></p>
-            <ul>
-                <li>Azure Fundamentals (AZ-900)</li>
-                <li>Power BI Data Analyst Associate (PL-300)</li>
-                <li>Data Engineer Associate (DP-203)</li>
-                <li>Data Science in Economics and Business (Datapot)</li>
-                <li>Python, SQL (DataCamp, HackerRank)</li>
-            </ul>
-        </div>
     </main>
 
-    <footer>
+    <footer class="bg-psi-dark text-white text-center py-8 mt-16">
         <p>&copy; 2025 PSI Technology. All rights reserved.</p>
     </footer>
+
+    <script src="node_modules/flowbite/dist/flowbite.min.js"></script>
 </body>
 </html>

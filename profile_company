@@ -7,7 +7,7 @@ Tung- Solution Architect x PM x Engineer
 
 Portfolio project:
 
-Deep analyze open source project integrate with Poiwer BI MCP and Databricks MCP
+Deep analyze open source project integrate with Power BI MCP and Databricks MCP
 Input: messy bunch of xlsx, sqlite, markdown, pdf, powerpoint, prompt
 Current Output: pdf report with text and chart
 Future output: dlt pipeline, DBT repo, PBI model, docs
