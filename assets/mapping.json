@@ -1,0 +1,37 @@
+{
+  "box1": {
+    "name": "Voice clone AI",
+    "url": "https://pair-prompt-moderator-motor.trycloudflare.com/",
+    "image": "F5TTS.PNG"
+  },
+  "box2": {
+    "name": "Lip sync AI",
+    "url": "https://computation-council-methodology-prescription.trycloudflare.com/",
+    "image": "LIPSYNC.PNG"
+  },  
+  "box3": {
+    "name": "Voice to text AI",
+    "url": "https://authorization-responding-relax-freely.trycloudflare.com/",
+    "image": "WHISPER.PNG"
+  },  
+  "box4": {
+    "name": "Electric motorbike",
+    "url": "https://xechohang.vn/",
+    "image": "EV.jpg"
+  },  
+  "box5": {
+    "name": "CAD design",
+    "url": "https://www.facebook.com/psi.technology.vn",
+    "image": "ROBOT.jpg"
+  },
+  "box6": {
+    "name": "Stock trading bot",
+    "url": "https://alfabull.vn/",
+    "image": "STOCK.jpg"
+  },  
+  "box7": {
+    "name": "Integrate MCP tools for Data & BI Engineering",
+    "url": "https://learn.microsoft.com/en-us/power-bi/developer/mcp/mcp-servers-overview",
+    "image": "MCP.PNG"
+  }    
+}
