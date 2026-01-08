@@ -144,17 +144,17 @@
             const projectsData = {
                 "box1": {
                     "name": "Voice clone AI",
-                    "url": "https://argument-brisbane-specialties-onion.trycloudflare.com",
+                    "url": "https://paperbacks-register-deal-characters.trycloudflare.com/",
                     "image": "F5TTS.PNG"
                 },
                 "box2": {
                     "name": "Lip sync AI",
-                    "url": "https://thomson-identity-autumn-difficulty.trycloudflare.com",
+                    "url": "https://papua-particularly-ellen-edge.trycloudflare.com",
                     "image": "LIPSYNC.PNG"
                 },  
                 "box3": {
                     "name": "Voice to text AI",
-                    "url": "https://just-test-here-recommend.trycloudflare.com",
+                    "url": "https://back-ferrari-combination-cancel.trycloudflare.com",
                     "image": "WHISPER.PNG"
                 },  
                 "box4": {
@@ -176,16 +176,6 @@
                     "name": "Integrate MCP tools for Data & BI Engineering",
                     "url": "https://learn.microsoft.com/en-us/power-bi/developer/mcp/mcp-servers-overview",
                     "image": "MCP.PNG"
-                }, 
-                "box8": {
-                    "name": "Stock Investment Analysis Platform",
-                    "url": "https://samples-lovers-networks-happiness.trycloudflare.com/",
-                    "image": "stock2.PNG"
-                },                               
-                "box9": {
-                    "name": "RAG Chatbot with Vector DB",
-                    "url": "https://github.com/psilabvnorg/anything-llm",
-                    "image": "chatbot.PNG"
                 }
             };
 
